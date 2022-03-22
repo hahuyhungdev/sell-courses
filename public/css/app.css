@@ -616,11 +616,16 @@ li{
 }
 
 .show-letter {
-    margin: auto;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 20px;
     width: 520px;
-    height: 620px;
+    height: 50%;
    background-color: wheat;
-    padding: 30px;
+    padding: 15px;
     position: relative;
 }
 
